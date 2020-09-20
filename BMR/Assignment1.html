@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+</head>
+<body>
+    <div id="AllPage">
+        
+        <header>
+                <h2 id="right">PLease choose the type of calculator</h2>
+            <nav>
+
+                <input type="radio" id="imperial" value="2" name="cal" />
+                <label for="imperial">IMPERIAL BMR CALCULATOR |</label>
+                <input type="radio" id="metric" value="3" name="cal" />
+                <label for="metric">METRIC BMR CALCULATOR</label>
+
+            </nav>
+            <hr />
+        </header>
+        <br />
+        <br />
+
+        <article>
+            <form>
+
+                <p>
+                    <label>
+                        <b>GENDER:</b>
+                        <select name="GENDER" id="gender">
+                            <option value="1" id="Male">Male</option>
+                            <option value="2" id="Female">Female</option>
+                        </select>
+
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <b>
+                            AGE:
+                        </b>
+                            <input type="number" id="age" min="0" max="200" step="10" size="5" required/>
+
+</label>
+                </p>
+
+                <p>
+                    <label>
+                        <b>YOUR HEIGHT </b><br />
+                       
+                        INCHES: <input type="number" id="inches" min="0" max="1000" step="10" size="5" required />
+
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <b>YOUR WEIGHT </b><br />
+                     
+                        POUNDS: <input type="number" id="pounds" min="0" max="1000" step="10" size="5" required/>
+
+                    </label>
+                </p>
+                <hr />
+                <p>
+                    <label id="level">
+                        <b>Select your activity level: </b><br />
+                        <input type="radio" id="level1" name="level"     value="0"/>I am sedentary (little or no exercise) <br />
+                        <input type="radio" id="level2" name="level"       value="1"/>I am lightly active (little exercise or sports 1-3 days per week)  <br />
+                        <input type="radio" id="level3" name="level"    value="2"/>I am moderately active (moderate exercise or sports 3-5 days per week)  <br />
+                        <input type="radio" id="level4" name="level"        value="3"/>I am very active (hard exercise or sports 6-7 days per week)  <br />
+                        <input type="radio" id="level5" name="level"   value="4"/>I am super active (very hard exercise or sports and a physical job or 2x training)
+
+                    </label>
+                </p>
+                <p>
+                    <input type="button" id="submit" value="Calculate BMR and Energy" />
+                </p>
+                <div>
+                    <h2 id="result1"></h2>
+                    
+                    <h2 id="energy"></h2>
+
+                </div>
+
+
+
+               
+            </form>
+        </article>
+
+        <script src="javascript/JavaScript.js"></script>
+    </div>
+</body>
+
+</html>

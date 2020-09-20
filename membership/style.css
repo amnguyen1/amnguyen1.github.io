@@ -1,0 +1,114 @@
+.active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white;
+}
+
+#AllPage {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px double darkslategray;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px #666666;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: black;
+    overflow: hidden;
+    float: inherit;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav a 
+{
+color: white;
+text-decoration: double; 
+
+}
+nav a:hover 
+{
+background-color: mediumpurple;
+color: aquamarine;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 16px;
+}
+
+body {
+   
+   
+    text-align: center;
+}
+form {
+    text-align: left;
+    margin-left: 300px;
+}
+label {
+    font-family: Georgia, “Times New Roman”, Times, serif;
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 300px;
+   
+    margin-left: 10px;
+    clear: both;
+    float: left;
+}
+
+#fname:invalid {
+    background: rgb(255,233,233);
+}
+#lname:invalid {
+    background: rgb(255,233,233);
+}
+#address:invalid {
+    background: rgb(255,233,233);
+}
+#city:invalid {
+    background: rgb(255,233,233);
+}
+#pcode:invalid {
+    background: rgb(255,233,233);
+}
+#province:invalid {
+    background: rgb(255,233,233);
+}
+#age:invalid {
+    background: rgb(255,233,233);
+}
+#pass:invalid {
+    background: rgb(255,233,233);
+}
+#cfirm:invalid {
+    background: rgb(255,233,233);
+}
+#email:invalid {
+    background: rgb(255,233,233);
+}
+
+#profile {
+    float: right;
+    width: 279px;
+    border: 1px solid black;
+    background: white;
+    padding: 20px;
+    background: rgb(216,217,219);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

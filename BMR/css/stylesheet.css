@@ -1,0 +1,51 @@
+﻿
+
+
+nav {
+    background-color: brown;
+    overflow: hidden;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 150px;
+}
+body {
+   
+    text-transform:uppercase;
+    background-color:skyblue;
+
+   
+
+}
+
+
+
+#AllPage {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px double darkslategray;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px #666666;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background-color: lightpink;
+}
+
+
+
+form{
+    text-align:left;
+    margin-left:100px;
+}
+table {
+    display:block
+}
+
+#right {
+    margin-left:150px;
+}

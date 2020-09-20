@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css"type="text/css" />
+
+</head>
+<body>
+    <div id="AllPage">
+        <nav>
+            <ul>
+                <li><a href="Membership.html">Sign Up</a></li>
+                <li><a href="./Neworder/Neworder.html">Order Page</a></li>
+
+            </ul>
+        </nav>
+        <h1><b>Member Registration</b></h1>
+
+        <h3>Please complete all the fields below:</h3>
+        <br />
+        <form id="register">
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" required />
+            <p id="fnameError" class="errorMsg"></p>
+
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" required />
+            <p id="lnameError" class="errorMsg"></p>
+
+            <label for="address">Address: </label>
+            <input type="text" id="address" required />
+            <p id="addressError" class="errorMsg"></p>
+
+            <label for="city">City: </label>
+            <input type="text" id="city" required />
+            <p id="cityError" class="errorMsg"></p>
+
+            <label for="pcode">Postal Code:</label>
+            <input type="text" id="pcode" required />
+            <p id="pcodeError" class="errorMsg"></p>
+
+            <label for="province">Province: </label>
+            <select id="province" class="province" required>
+                <option value="QC">QC</option>
+                <option value="ON">ON</option>
+                <option value="MN">MN</option>
+                <option value="SK">SK</option>
+                <option value="AB">AB</option>
+                <option value="BC">BC</option>
+            </select>
+            <br /><br />
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="18" max="400" required />
+            <p id="ageError" class="errorMsg"></p>
+
+            <label for="password">Password: </label>
+            <input type="text" id="pass" required />
+
+            <br /><br />
+            <label for="confirm">Confirm Password: </label>
+            <input type="text" id="cfirm" required />
+            <p id="pwdError" class="errorMsg"></p>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" required />
+            <p id="emailError" class="errorMsg"></p>
+
+            <input type="button" id="submit" value="submit" />
+            <input type="reset" id="clear" value="reset" />
+
+            <script src="./Membership.js"></script>
+
+        </form>
+        <section id="profile">
+            <h3>Profile</h3>
+            <div id="fnameSection">
+                <h4>Firstname</h4>
+                <p id="profileFname"></p>
+            </div>
+            <div id="lnameSection">
+                <h4>Lastname</h4>
+                <p id="profileLname"></p>
+            </div>
+            <div id="addressSection">
+                <h4>Address</h4>
+                <p id="profileAddress"></p>
+            </div>
+            <div id="citySection">
+                <h4>City</h4>
+                <p id="profileCity"></p>
+            </div>
+            <div id="pcodeSection">
+                <h4>Postal Code</h4>
+                <p id="profilePcode"></p>
+            </div>
+            <div id="ProvinceSection">
+                <h4>Province</h4>
+                <p id="profileProvince"></p>
+
+            </div>
+            <div id="AgeSection">
+                <h4>Age</h4>
+                <p id="profileAge"></p>
+            </div>
+            <div id="emailSection">
+                <h4>Email address</h4>
+                <p id="profileEmail"></p>
+            </div>
+        </section>
+    <footer><h6>&copy Copyright Anh Minh Nguyen - 301113648 - Centennial College</h6></footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿
+
+
+body {
+   
+    background-color:ghostwhite;
+    color:black;
+}
+
+#AllPage {
+    width:inherit;
+    background-color: papayawhip;
+  
+    margin-right:auto;
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    float: inherit;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+ nav a {
+       
+        color:white;
+        text-decoration:double;
+        
+    }
+nav a:hover {
+    background-color:mediumpurple;
+    color:aquamarine;
+    
+    }
+li {
+    list-style-type: none;
+    display: inline-block;
+    
+    width: 14%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+  
+    text-transform: uppercase;
+    height: 16px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered3 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#imgtop {
+    width: 980px;
+    height:auto;
+}
